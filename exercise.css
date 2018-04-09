@@ -1,0 +1,138 @@
+body {
+  font-family:"Source Sans Pro";
+}
+#container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  border: 2px double yellow;
+  width: 1050px;
+}
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  font-family: "Oswald";
+  padding-top: 20px;;
+
+}
+#startup {
+  color: yellow;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.tagline {
+  background-color: #C6C6C6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Merriweather", serif;
+  color: black;
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  width:1050px;
+}
+
+#taste {
+  color: #808080;
+  text-decoration: line-through;
+}
+#are {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+
+}
+#container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-image: url("class-exercise/coworking.jpg");
+  height: 400px;
+  background-repeat:no-repeat;
+  background-position: center;
+
+}
+
+#matcher {
+  font-family: "Oswald";
+  background-color: rgba(198, 198, 198, 0.8);
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  width: 300px;
+  border-radius: 20px;
+
+}
+.buttonMatch {
+  padding-left: 40px;
+}
+
+#create {
+  background-color: yellow;
+  font-family: "Oswald";
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  border-style: outset;
+}
+
+.matcher1 {
+  padding-left: 20px;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(198, 198, 198, 0.3);
+  height: 161px;
+  width: 1050px;
+  font-family: "Oswald";
+}
+
+#Profile {
+  display: inline-block;
+  height: 150px;
+  width:  350px;
+  font-size: 17px;
+  border: 1px groove black;
+  padding-left: 12px;
+}
+
+.profile {
+  border-radius: 50px;
+  text-align: center;
+}
+
+.bottomHeaders{
+  text-align: center;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+#Developer {
+height: 150px;
+width: 350px;
+font-size: 17px;
+border: 1px groove black;
+padding-left: 12px;
+}
+
+#Designer {
+  border: 1px groove black;
+  height: 150px;
+  width: 350px;
+  font-size: 17px;
+  padding-left: 12px;
+}
